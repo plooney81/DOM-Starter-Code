@@ -1,9 +1,10 @@
 const myButton = document.getElementById('clickMe');
-const noun1 = document.getElementById('noun1');
-const noun1Input = document.getElementById('noun1Input');
+const nouns = document.getElementsByClassName('placeholder');
+const inputs = document.querySelectorAll('[id$="Input"]');
 
 myButton.addEventListener('click', function (event) {
   event.preventDefault();
-
-  noun1.innerHTML = noun1Input.value;
+  for (let index = 0; index < nouns.length; index++){
+    nouns[index].innerHTML = inputs[index].value;
+  }
 });
