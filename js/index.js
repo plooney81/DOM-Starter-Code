@@ -2,8 +2,8 @@ const myButton = document.getElementById('clickMe');
 const translateButton = document.getElementById('translate');
 const nouns = document.getElementsByClassName('placeholder');
 const inputs = document.querySelectorAll('[id$="Input"]');
-const newP = document.createElement('p');
 const replace = document.querySelector('p');
+const newP = document.createElement('p');
 newP.innerHTML = `I really don't know to translate latin, so I'm not actually going to change anything. 
 <span class="placeholder" id="noun1">___________</span> went to the market to talk to <span class="placeholder" id="noun2">___________</span>.
 Upon arriving, they noticed that <span class="placeholder" id="noun3">___________</span> was there...their worst enemy. <br><br>
