@@ -1,4 +1,4 @@
-# Starter Code for DOM Programming.
+# Starter Code for DOM Programming
 
 ## Revenge of the Mad Libs
 
